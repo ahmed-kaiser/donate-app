@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color:#FF5959;
+    padding: 16px 12px;
+    border-radius: 5px;
+}
+
+.header-section{
+    background-image: url(./images/donation8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.header__bg-shadow{
+    background-color: rgba(0, 0, 0, 0.386);
+    height: 100%;
+}
+
+.header__text-area{
+    color: #FFF;
+    text-align: center;
+    padding-top: 14%;
+}
+
+.header__text-area p{
+    padding: 25px 0;
+}
+
+.donate-section{
+    padding: 100px;
+    text-align: center;
+}
+
+.donate__title{
+    text-align: center;
+}
+
+.donate__title p{
+    padding: 20px 0;
+    color: #707070;
+}
+
+.donate__amount{
+    margin: 20px 0px;
+}
+
+.donate__amount-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.amount-list__item{
+    flex: 0 1 10%;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    color:#707070;
+    text-align: center;
+    padding: 30px 10px;
+    background-color:#FAFAFA;
+    border-radius: 5px;
+}
+
+.donate__amount-input{
+    display: flex;
+    justify-content: center;
+}
+
+.amount-input__field{
+    display: block;
+    width: 60%;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    margin: 20px 0;
+}
+
+.donate-plan-section{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.donate-plan__title p{
+    padding: 20px 0;
+    color: #707070;
+}
+
+.donate-plan__card{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card{
+    max-width: 340px;
+    padding: 40px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}
+
+.card h4{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card--food{
+    background-color: #4F9DA61A;
+}
+
+.card--family{
+    background-color: #FF59591A;
+}
+
+.card--education{
+    background-color: #FFF4D6;
+}
+
+.achievement-section{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.achievement__title p{
+    padding: 20px;
+    color: #707070;
+}
+
+.achievement__body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.achievement__card{
+    display: flex;
+    flex-direction: column;
+}
+
+.achievement__card img{
+    width: 180px;
+    height: 200px;
+}
+
+.achievement__card strong{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.updates-section{
+    padding-top: 150px;
+    text-align: center;
+}
+
+.update__title p{
+    padding: 20px 0;
+    color: #707070;
+}
+
+.update__body{
+    display: flex;
+    justify-content: center;
+}
+
+.subscription-form{
+    background-color: #FFF4D6;
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-form input{
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.subscription-form button{
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 10px 30px;
+    border: none;
+    background-color: #FF5959;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+
+.footer-section{
+    margin-top: 100px;
+    background-color: black;
+    height: 120px;
+    text-align: center;
+}
+
+.footer__title{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FF5959;
+    padding-top: 30px;
+}
+
+.footer__massage{
+    color: #fff;
+    padding: 20px 0;
+}
